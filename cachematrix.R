@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Programming Assignment 2 from Coursera course
+## This functions creates a vector that returns the inverse of a matrix 
+## or it calculates the inverse if it has not been done before 
 
-## Write a short comment describing this function
+## This function makes the vector containing the matrix, the inverse and the set and get functions
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
   set <- function(y) {
@@ -16,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
         getinv = getinv)
 }
 
-## Write a short comment describing this function
+## This function retrieves the data
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
